@@ -17,40 +17,42 @@
 # Exams: 50, 51, 0
 # Average: 33
 # Grade: F
-# Student iis failing.
+# Student is failing.
 
+
+#User input
 exam_one = int(input("Input exam grade one: "))
+exam_two = int(input("Input exam grade two: "))
+exam_three = int(input("Input exam grade three: "))
 
-exam_two = input("Input exam grade two: "))
-
-exam_3 = str(input("Input exam grade three: "))
-
-grades = [exam_one exam_two exam_three]
+grades = [exam_one, exam_two, exam_three]
 sum = 0
-for grade in grade:
-  sum = sum + grade
 
-avg = sum / len(grdes)
+#Average calc
+for grade in grades:
+    sum = sum + grade
+avg = sum / len(grades)
 
+#Assigning grade 
 if avg >= 90:
     letter_grade = "A"
-elif avg >= 80 and avg < 90
+elif avg >= 80 and avg < 90:
     letter_grade = "B"
 elif avg > 69 and avg < 80:
-    letter_grade = "C'
+    letter_grade = "C"
 elif avg <= 69 and avg >= 65:
     letter_grade = "D"
-elif:
+else:
     letter_grade = "F"
 
-for grade in grades:
-    print("Exam: " + str(grade))
+#Printing out results 
+for i, grade in enumerate(grades, start=1): #really cool syntax. enumerate function assign index to items in list, start=1 change starting index to 1. Enumerative iteration helps get value and index of list
+    print(f"Exam #{i}: {grade}")
 
-    print("Average: " + str(avg))
+print(f"Average: {avg:.2f}")
+print("Grade: " + letter_grade)
 
-    print("Grade: " + letter_grade)
-
-if letter-grade is "F":
-    print "Student is failing."
+if letter_grade == "F":
+    print ("Student is failing.")
 else:
-    print "Student is passing."
+    print ("Student is passing.")
