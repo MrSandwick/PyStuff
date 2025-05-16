@@ -1,6 +1,7 @@
 # Baatyrbek Turatov
 # 5/13/2025
-# What the program does
+# Program explores behavior of turtle under random effect
+# P.S Not the most creative but I explored what people do with turtle, and it's just crazy lol
 
 import turtle
 import random
