@@ -1,6 +1,6 @@
 # Baatyrbek Turatov
 # 5/13/2025
-# What the program does 
+# Program uses turtle to draw a polyhedron which sides and length determined by user
 
 # !!!I get it now, terminal does not updating itself because of turtle screen. 
 # It creates a turtle screen but it's not showing above all other open windows. How do I fix it?

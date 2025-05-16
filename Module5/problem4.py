@@ -1,6 +1,6 @@
 # Baatyrbek Turatov
 # 5/13/2025
-# What the program does
+# Program create an array with numbers from 1 to 50 and checks if these numbers are multiples of 3, 5 or both.
 
 nums = [i for i in range(1, 51)]
 for num in nums:
